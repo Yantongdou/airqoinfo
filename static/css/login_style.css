@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.image{
+    width: 100%;
+}
+
+.bg{
+    position:fixed;
+    width: 100%;
+    height: 10vh;
+    padding-left: 40px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #dce0e0;
+    background-image: linear-gradient(160deg, #497099 20%, #dce0e0 80%);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+/* 主体内容 */
+.content{
+    width: 100%;
+    top: 10vh;
+    height: 90vh;
+    max-width: 400px;
+    background: #93bfc8;
+    position: fixed;
+    right: 0px;
+    padding: 20px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgb(0, 0, 0);
+}
+
+.content_box{
+    padding-top: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.signin{
+    width: 80%;
+    text-align: left;
+    font-family: "Gill Sans", sans-serif;
+    color: #497099;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+/* 输入框 */
+.inputbox{
+    outline-style: none;
+    margin-bottom: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 13px 14px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+#tip{
+    color: red;
+}
+
+/* 按钮 */
+.btn{
+    width: 80%;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 3px;
+    background: #5c8ac3;
+    cursor: pointer;
+    outline: none;
+    color: #ececec;
+    font-size: 17px;
+}
+.btn:hover{
+    color: #ffffff;
+    background: #72a6e0;
+}
+
+#map{
+    height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
